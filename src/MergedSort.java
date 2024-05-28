@@ -46,8 +46,8 @@ public class MergedSort {
 		}
 		
 		
-		for(int i=0;i<mergedArr.length;i++) {
-			arr[i]=mergedArr[i];
+		for(int i=0, j=si ;i<mergedArr.length;i++, j++) {
+			arr[j]=mergedArr[i];
 		}
 		
 		return arr;
