@@ -48,6 +48,20 @@ public class Main {
 			System.out.print(i+ " ");
 		}
 		
+		int[] arr2= {5,34,3,1,8,4,0,73,23,98,7};
+		
+		QuickSort qs=new QuickSort();
+		
+		System.out.println();
+		
+		qs.quickSort(arr2, 0, arr2.length-1);
+		
+		System.out.print("Using Quick Sort: ");
+		for(int i: arr2) {
+			System.out.print(i+ " ");
+		}
+		
+		
 	}
 
 }
