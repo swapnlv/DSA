@@ -61,6 +61,18 @@ public class Main {
 			System.out.print(i+ " ");
 		}
 		
+		int[] arr3= {5,34,3,1,8,4,0,73,23,98,7};
+		
+		CountSort cs=new CountSort();
+		int[] resultArr4=cs.countinSortArray(arr3);
+		
+		
+		System.out.println();
+		
+		System.out.print("Using Count Sort: ");
+		for(int i: resultArr4) {
+			System.out.print(i+ " ");
+		}
 		
 	}
 
