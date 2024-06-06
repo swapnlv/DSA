@@ -61,6 +61,32 @@ public class Main {
 			System.out.print(i+ " ");
 		}
 		
+		int[] arr3= {5,34,3,1,8,4,0,73,23,98,7};
+		
+		CountSort cs=new CountSort();
+		int[] resultArr4=cs.countinSortArray(arr3);
+		
+		
+		System.out.println();
+		
+		System.out.print("Using Count Sort: ");
+		for(int i: resultArr4) {
+			System.out.print(i+ " ");
+		}
+		
+		System.out.println();
+		int[] arr4={6,4,1,5,3,2};
+		System.out.println("Using Cyclic Sort: Before Sorting: ");
+		for(int el: arr4){
+
+		    System.out.print(+ el+ " ");
+		}
+		int[] resultArr5=CyclicicSort.cycleSort(arr4);
+		        System.out.println();
+		System.out.println("After Sorting: ");
+		for(int el: resultArr5){
+		    System.out.print( el+ " ");
+		}
 		
 	}
 
